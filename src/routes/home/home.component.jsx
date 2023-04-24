@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 import Directory from '../../components/directory/directory.component';
 
 const Home = () => {
-  const categorires = [
+  const categories = [
     {
       id: 1,
       title: 'hats',
@@ -33,7 +33,7 @@ const Home = () => {
 
   return (
     <div>
-      <Directory categories={categorires} />
+      <Directory categories={categories} />
       <Outlet />
     </div>
   );
