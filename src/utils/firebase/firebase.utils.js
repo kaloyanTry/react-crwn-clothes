@@ -20,7 +20,6 @@ import {
   query,
   getDocs,
 } from 'firebase/firestore';
-import { useCallback } from 'react';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyAEbXICfwEBca8YA8Gb1qsRCx1z53YbaGY',
@@ -62,7 +61,7 @@ export const addCollectionAndDocuments = async (
   });
 
   await batch.commit();
-  console.log('done');
+  //console.log('done');
 };
 
 export const getCategoriesAndDocuments = async () => {
