@@ -1,4 +1,4 @@
-import { createContext, useState, useEffect } from 'react';
+import { createContext, useState, useEffect, useReducer } from 'react';
 
 // helper functions():
 const addCartItem = (cartItems, productToAdd) => {
